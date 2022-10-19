@@ -1,1 +1,1 @@
-1-last digit.c
+2-print alphabeti.c
