@@ -1,1 +1,1 @@
-2-print alphabeti.c
+3-print alphabets.c
