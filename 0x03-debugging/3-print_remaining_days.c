@@ -1,8 +1,10 @@
-#include <stdio>
+#include <stdlib.h>
 #include "main.h"
+#include <stdio.h>
+#include <time.h>
 
 /**
- * print_remaining_days - takes a day and print ho wmany days are
+ * print_remaining_days - picks a date
  * left in the year, taking leap year into account
  * @month: month in number format
  * @day: day of month
@@ -12,9 +14,9 @@
 
 void print_remaining_days(int month, int day, int year)
 {
-	if ((year % 100 == 0 && (year % 400 == 0) || year % 4 == 0))
+	if ((year % 4 == 0) && (year % 400 == || year % 100 != 0))
 	{
-		if (month > 2 && day >= 60)
+		if (month > 3 && day >= 60)
 		{
 			day++;
 		}
